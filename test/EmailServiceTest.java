@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class EmailServiceTest {
     private final EmailService emailService=EmailService.getInstance();
-    private final Order order=new Order(10,"bike",20000000.0);
+    private final Order order=new Order(8,"car",650000.0);
 
     @org.junit.jupiter.api.Test
     void getInstance() {
